@@ -1,0 +1,15 @@
+.nav{
+	background: yellow;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.nav input{
+	width: 20em;
+	height: 5em;
+	background: blue;
+	color: white;
+	margin: 2em;
+	font-size: 1em;
+}

@@ -1,0 +1,18 @@
+.cabecalho{
+	background: tomato;
+	width: 100%;
+	height: 15em; 
+}
+
+.corpo{
+	background: yellow;
+	width: 100%;
+	height: 20em;
+}
+
+.rodape{
+	background: green;
+	width: 100%;
+	height: 20em;
+	color: red;
+}
