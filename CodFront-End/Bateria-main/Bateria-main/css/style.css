@@ -1,0 +1,63 @@
+*{/*RESET CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-size: 62.5%*/
+    ;
+}
+html{
+    --title-color:#fff;
+    --base-color:#333;
+    --base-color-second:#00ff7f;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    min-height: 100vh;
+    background-color: var(--base-color);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: var(--title-color);
+    margin-bottom: 2rem;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.key{
+    width: 8rem;
+    height: 8rem;
+    border: 0.2rem solid var(--title-color);
+    border-radius: 0.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+/*
+    .key.active{
+        LEMBRAR PROFESSOR
+    }
+*/
+
+.composer{
+    width: 26rem;
+    margin-top: 2rem;
+}
+.composer #input{
+    width: 100%;
+    outline: none;
+    font-size: 1.7rem;
+    padding: 1rem 1.5rem;
+}
